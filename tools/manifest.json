@@ -1,0 +1,17 @@
+[
+  {"slug": "technologies", "file": "../../../Research/technologiesbenchmarkspdf.pdf", "title": "Technologies"},
+  {"slug": "social-studies", "file": "../../../Research/social-studiesbenchmarkspdf.pdf", "title": "Social Studies"},
+  {"slug": "rerc", "file": "../../../Research/rerc_benchmarkspdf.pdf", "title": "Religious Education (Roman Catholic Schools)"},
+  {"slug": "rme", "file": "../../../Research/rmebenchmarkspdf.pdf", "title": "Religious and Moral Education"},
+  {"slug": "expressive-arts", "file": "../../../Research/expressive-arts-benchmarks-0825.pdf", "title": "Expressive Arts"},
+  {"slug": "classical-languages", "file": "../../../Research/classicallanguagesbenchmarks.pdf", "title": "Classical Languages"},
+  {"slug": "gaelic-learners", "file": "../../../Research/gaeliclearnersbenchmarkspdf.pdf", "title": "Gaelic (Learners)"},
+  {"slug": "hwb-food-health", "file": "../../../Research/hwbfoodhealthbenchmarkspdf.pdf", "title": "Health & Wellbeing: Food and Health"},
+  {"slug": "hwb-personal-social", "file": "../../../Research/hwbpersonalsocial-educationbenchmarkspdf.pdf", "title": "Health & Wellbeing: Personal and Social Education"},
+  {"slug": "hwb-pe", "file": "../../../Research/hwbphysicaleducationbenchmarkspdf.pdf", "title": "Health & Wellbeing: Physical Education"},
+  {"slug": "literacy-english", "file": "../../../Research/literacyenglishbenchmarks.pdf", "title": "Literacy and English"},
+  {"slug": "literacy-gaidhlig", "file": "../../../Research/literacygaidhligbenchmarksgaelicpdf_.pdf", "title": "Literacy and Gàidhlig"},
+  {"slug": "modern-languages", "file": "../../../Research/modernlanguagesbenchmarkspdf.pdf", "title": "Modern Languages"},
+  {"slug": "modern-languages-early", "file": "../../../Research/mls-final-early-level-es-and-os-and-benchmarks.pdf", "title": "Modern Languages (Early Level supplement)"},
+  {"slug": "numeracy-maths", "file": "../../../Research/numeracyandmathematicsbenchmarks.pdf", "title": "Numeracy and Mathematics"}
+]

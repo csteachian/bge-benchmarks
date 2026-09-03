@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Project - BGE Benchmarks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="bg"></div>
+
+<header class="site-header">
+  <img class="logo" src="images/logo.png" alt="csteach.uk">
+  <div class="header-text">
+    <h1>BGE Benchmarks</h1>
+    <p>Curriculum for Excellence benchmarks, made searchable</p>
+  </div>
+</header>
+
+<nav class="pill-nav">
+  <a href="index.html" class="pill-btn">Search</a>
+  <a href="project.html" class="pill-btn active">My Project <span class="count" data-project-count>0</span></a>
+  <a href="about.html" class="pill-btn">About</a>
+</nav>
+
+<main class="page">
+  <div class="page-header">
+    <h1>My Project</h1>
+    <p>Benchmarks you've starred, saved in this browser only. Group them, print them, or export a PDF to share.</p>
+  </div>
+
+  <div class="project-toolbar">
+    <button class="btn primary" id="printBtn">Print / Save as PDF</button>
+    <button class="btn danger" id="clearBtn">Empty project</button>
+  </div>
+
+  <div id="projectContent"></div>
+</main>
+
+<footer class="site-footer">BGE Benchmarks &mdash; a free tool for Scottish teachers. Not affiliated with Education Scotland.</footer>
+
+<script src="js/app.js"></script>
+<script>
+const LEVEL_LABELS = { 0: "Early", 1: "First", 2: "Second", 3: "Third", 4: "Fourth" };
+
+function groupBy(items, keyFn) {
+  const map = new Map();
+  for (const item of items) {
+    const key = keyFn(item);
+    if (!map.has(key)) map.set(key, []);
+    map.get(key).push(item);
+  }
+  return map;
+}
+
+function itemRowHtml(item) {
+  return `
+  <div class="card" style="--card-color:${colorForOrganiser(item.organiser)}; --level-color:${colorForLevel(item.level)}; margin-bottom:10px;">
+    <div class="card-top">
+      <span class="eo-code">${escapeHtml(item.eoCode)}</span>
+      <button class="remove-btn" data-id="${item.id}" title="Remove from project" aria-label="Remove">&#10005;</button>
+    </div>
+    <div class="organiser-tag">${escapeHtml(item.organiser)}</div>
+    <p class="benchmark-text">${escapeHtml(item.benchmark)}</p>
+    <p class="eo-text">${escapeHtml(item.eoText)}</p>
+    <span class="level-pill">Level ${item.level} &middot; ${LEVEL_LABELS[item.level] || ""}</span>
+  </div>`;
+}
+
+async function render() {
+  const all = await loadBenchmarks();
+  const ids = getProject();
+  const items = all.filter((i) => ids.includes(i.id));
+  const container = document.getElementById("projectContent");
+
+  if (!items.length) {
+    container.innerHTML = `<div class="empty-state">
+      <h2>Your project is empty</h2>
+      <p>Head to <a href="index.html">Search</a> and click the star on any benchmark to add it here.</p>
+    </div>`;
+    return;
+  }
+
+  const byArea = groupBy(items, (i) => i.area);
+  let html = "";
+  for (const [area, areaItems] of byArea) {
+    const groupColor = colorForOrganiser(areaItems[0].organiser);
+    html += `<section class="project-group" style="--group-color:${groupColor}"><h2>${escapeHtml(area)}</h2>`;
+    const byOrganiser = groupBy(areaItems, (i) => i.organiser);
+    for (const [organiser, orgItems] of byOrganiser) {
+      html += `<div class="organiser-heading">${escapeHtml(organiser)}</div>`;
+      html += orgItems.map(itemRowHtml).join("");
+    }
+    html += `</section>`;
+  }
+  container.innerHTML = html;
+
+  container.querySelectorAll(".remove-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      removeFromProject(btn.dataset.id);
+      render();
+    });
+  });
+}
+
+document.getElementById("clearBtn").addEventListener("click", () => {
+  if (confirm("Remove all benchmarks from your project?")) {
+    clearProject();
+    render();
+  }
+});
+
+document.getElementById("printBtn").addEventListener("click", () => window.print());
+
+render();
+</script>
+</body>
+</html>

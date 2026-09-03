@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BGE Benchmarks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="bg"></div>
+
+<header class="site-header">
+  <img class="logo" src="images/logo.png" alt="csteach.uk">
+  <div class="header-text">
+    <h1>BGE Benchmarks</h1>
+    <p>Curriculum for Excellence benchmarks, made searchable</p>
+  </div>
+</header>
+
+<nav class="pill-nav">
+  <a href="index.html" class="pill-btn active">Search</a>
+  <a href="project.html" class="pill-btn">My Project <span class="count" data-project-count>0</span></a>
+  <a href="about.html" class="pill-btn">About</a>
+</nav>
+
+<main class="page">
+  <div class="page-header">
+    <p>Search by keyword, filter by level or curriculum area, and star the ones you want to keep for later.</p>
+  </div>
+
+  <div class="controls">
+    <div class="search-row">
+      <input type="search" id="searchInput" placeholder="Search by keyword, e.g. &quot;password&quot; or &quot;materials&quot;&hellip;" autocomplete="off">
+    </div>
+    <div class="filter-group">
+      <div class="filter-group-label">Level</div>
+      <div class="chip-row" id="levelChips"></div>
+    </div>
+    <div class="filter-group">
+      <div class="filter-group-label">Curriculum area</div>
+      <div class="chip-row" id="areaChips"></div>
+    </div>
+  </div>
+
+  <div class="section-label" id="resultsMeta"></div>
+  <div class="grid" id="resultsGrid"></div>
+</main>
+
+<footer class="site-footer">BGE Benchmarks &mdash; a free tool for Scottish teachers. Not affiliated with Education Scotland.</footer>
+
+<script src="js/app.js"></script>
+<script>
+const LEVEL_LABELS = { 0: "Early", 1: "First", 2: "Second", 3: "Third", 4: "Fourth" };
+
+let ALL = [];
+let state = { query: "", levels: new Set(), areas: new Set() };
+
+function buildChips(container, values, formatLabel, activeSet, colorFn) {
+  container.innerHTML = "";
+  values.forEach((v) => {
+    const label = document.createElement("label");
+    label.className = "chip";
+    const swatch = colorFn ? `<span class="swatch" style="background:${colorFn(v)}"></span>` : "";
+    label.innerHTML = `<input type="checkbox">${swatch}${formatLabel(v)}`;
+    const input = label.querySelector("input");
+    input.addEventListener("change", () => {
+      if (input.checked) activeSet.add(v); else activeSet.delete(v);
+      label.classList.toggle("active", input.checked);
+      render();
+    });
+    container.appendChild(label);
+  });
+}
+
+function matchesFilters(item) {
+  if (state.levels.size && !state.levels.has(item.level)) return false;
+  if (state.areas.size && !state.areas.has(item.area)) return false;
+  if (state.query) {
+    const q = state.query.toLowerCase();
+    const haystack = `${item.eoCode} ${item.eoText} ${item.benchmark} ${item.organiser}`.toLowerCase();
+    if (!haystack.includes(q)) return false;
+  }
+  return true;
+}
+
+function cardHtml(item) {
+  const color = colorForOrganiser(item.organiser);
+  const levelColor = colorForLevel(item.level);
+  const starred = isInProject(item.id);
+  return `
+  <article class="card" style="--card-color:${color}; --level-color:${levelColor}">
+    <div class="card-top">
+      <span class="eo-code">${escapeHtml(item.eoCode)}</span>
+      <button class="star-btn ${starred ? "active" : ""}" data-id="${item.id}" title="Add to project" aria-label="Add to project">${starred ? "&#9733;" : "&#9734;"}</button>
+    </div>
+    <div class="organiser-tag">${escapeHtml(item.organiser)}</div>
+    <p class="benchmark-text">${highlight(item.benchmark, state.query)}</p>
+    <p class="eo-text">${highlight(item.eoText, state.query)}</p>
+    <div class="card-actions">
+      <span class="level-pill">Level ${item.level} &middot; ${LEVEL_LABELS[item.level] || ""}</span>
+    </div>
+  </article>`;
+}
+
+function render() {
+  const results = ALL.filter(matchesFilters);
+  const grid = document.getElementById("resultsGrid");
+  const meta = document.getElementById("resultsMeta");
+  meta.textContent = `${results.length} benchmark${results.length === 1 ? "" : "s"} found`;
+  if (!results.length) {
+    grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1">
+      <h2>No matches</h2>
+      <p>Try a different keyword, or clear a filter above.</p>
+    </div>`;
+    return;
+  }
+  grid.innerHTML = results.map(cardHtml).join("");
+  grid.querySelectorAll(".star-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const nowIn = toggleProject(btn.dataset.id);
+      btn.classList.toggle("active", nowIn);
+      btn.innerHTML = nowIn ? "&#9733;" : "&#9734;";
+    });
+  });
+}
+
+async function init() {
+  ALL = await loadBenchmarks();
+
+  const levels = [...new Set(ALL.map((i) => i.level))].sort((a, b) => a - b);
+  buildChips(document.getElementById("levelChips"), levels, (l) => `${l} &middot; ${LEVEL_LABELS[l] || ""}`, state.levels);
+
+  const areas = [...new Set(ALL.map((i) => i.area))].sort();
+  buildChips(document.getElementById("areaChips"), areas, (a) => a, state.areas);
+
+  document.getElementById("searchInput").addEventListener("input", (e) => {
+    state.query = e.target.value.trim();
+    render();
+  });
+
+  render();
+}
+
+init();
+</script>
+</body>
+</html>

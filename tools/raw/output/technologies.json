@@ -1,0 +1,1074 @@
+[
+  {
+    "codes": [
+      "TCH 0-01a"
+    ],
+    "eo_text": "I can explore digital technologies and use what I learn to solve problems and share ideas and thoughts.",
+    "organiser": "Using digital products and services in a variety of contexts to achieve a",
+    "benchmarks": [
+      "Recognises different types of digital technology.",
+      "Identifies the key components of different types of digital technology.",
+      "Logs on to a preferred device with a given password.",
+      "Identifies icons for different applications.",
+      "Opens and close a pre-saved file."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 0-02a"
+    ],
+    "eo_text": "I can use digital technologies to explore how to search and find information.",
+    "organiser": "purposeful outcome Searching, processing and managing information",
+    "benchmarks": [
+      "Identifies and consistently use the close icon.",
+      "Uses digital technologies in a responsible way and with appropriate care. Identifies and uses images and key words when searching for specific information.",
+      "Demonstrates an understanding of how information can be found on websites as text, audio, images and video.",
+      "Demonstrates an understanding of how they should not use materials owned by others without"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 0-03a"
+    ],
+    "eo_text": "I can explore, play and communicate using digital technologies safely and securely.",
+    "organiser": "responsibly Cyber resilience and internet safety",
+    "benchmarks": [
+      "permission.",
+      "Demonstrates an understanding of appropriate behaviour and language in the digital environment.",
+      "Demonstrates an understanding of the importance of passwords and passcodes for example access to school building."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 0-04a"
+    ],
+    "eo_text": "I enjoy exploring and working with foods in different contexts",
+    "organiser": "Food and Textile",
+    "benchmarks": [
+      "Demonstrates simple food preparation techniques, for example, peeling, slicing, mixing, spreading",
+      "Demonstrates simple techniques with textiles, for example, threading cards, selecting materials, gluing,"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 0-04b"
+    ],
+    "eo_text": "I enjoy experimenting with a range of textiles",
+    "organiser": "Food and Textile",
+    "benchmarks": [
+      "Explores and identifies at least two ideas by using given resources to solve the problem",
+      "Selects an appropriate solution."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 0-04c"
+    ],
+    "eo_text": "I can share their thoughts with others to help further develop ideas and solve problems.",
+    "organiser": "Food and Textile",
+    "benchmarks": []
+  },
+  {
+    "codes": [
+      "TCH 0-05a"
+    ],
+    "eo_text": "I enjoy playing with and exploring technologies to discover what they can do and how they can help us.",
+    "organiser": "Awareness of technological developments (Past, Present and",
+    "benchmarks": [
+      "Discusses times when they have used different technologies."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 0-06a"
+    ],
+    "eo_text": "To help care for the environment, I reduce, re-use and recycle the resources I use.",
+    "organiser": "Future), including how they work. Impact, contribution, and relationship ofte ch nologies",
+    "benchmarks": [
+      "Understands what can be reduced, re-used and recycled."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 0-07a"
+    ],
+    "eo_text": "I understand how local shops and services use technologies to provide us with what we need and want in our daily lives.",
+    "organiser": "onbus in e s s, the economy, politics, and the environment.",
+    "benchmarks": [
+      "Gives examples of how people (for example police, fire, healthcare) who help us use technologies in their everyday work."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 0-09a"
+    ],
+    "eo_text": "I explore ways to design and construct models.",
+    "organiser": "Design and constructing models/product",
+    "benchmarks": [
+      "Builds models using different materials eg. junk modelling, wooden blocks",
+      "Uses tools and materials (paper, card, wood, plastic) to create models"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 0-10a"
+    ],
+    "eo_text": "I explore everyday materials  in the creation of pictures/models/concepts  ",
+    "organiser": "Exploring uses of materials",
+    "benchmarks": [
+      "Describes materials by touch for example sticky, squidgy, soft, fluffy, hard, rough, wet, heavy, light Uses a range of materials when creating a pictures/models/concepts eg...... Identifies when a material is suitable or not for specific function or task eg...."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 0-11a"
+    ],
+    "eo_text": "I explore and discover different ways of representing ideas in imaginative ways.",
+    "organiser": "Representing ideas, concepts and products through a variety",
+    "benchmarks": [
+      "Uses a range of materials(natural and man-made) and resources to create pictures.",
+      "Shares ideas with others.",
+      "Recognise 2D shapes and how they can be used to visually represent ideas/concepts."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 0-12a"
+    ],
+    "eo_text": "I explore a variety of products covering a range of engineering disciplines.",
+    "organiser": "Application of Engineering",
+    "benchmarks": [
+      "Recognises engineering in the world around them for example bridges, construction, electronics, computers"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 0-13a"
+    ],
+    "eo_text": "I can explore computational thinking processes involved in a variety of everyday tasks and can identify patterns in objects or information",
+    "organiser": "Understanding the world through computational thinking",
+    "benchmarks": [
+      "Identifies and sequences the main steps in an everyday task to create instructions/an algorithm for example, washing hands.",
+      "Classifies objects and groups them into simple categories for examples, groups toy bricks according to colour.",
+      "Identifies patterns, similarities and differences in objects or information such as colour,"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 0-14a"
+    ],
+    "eo_text": "I understand that sequences of instructions are used to control computing technology.",
+    "organiser": "Understanding and analysing computing technology",
+    "benchmarks": [
+      "size and temperature and simple relationships between them.",
+      "Demonstrates an understanding of how symbols can represent process and information.",
+      "Predicts what a device or person will do when presented with a sequence of instructions for example, arrows drawn on paper.",
+      "Identifies computing devices in the world (including those hidden in appliances and objects"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 0-14b"
+    ],
+    "eo_text": "I can experiment with and identify uses of a range of computing technology in the world around me.",
+    "organiser": "Understanding and analysing computing technology",
+    "benchmarks": [
+      "such as automatic doors)."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 0-15a"
+    ],
+    "eo_text": "I can develop a sequence of instructions and run them using programmable devices or equivalent",
+    "organiser": "Designing, building and testing computing solutions",
+    "benchmarks": [
+      "Designs a simple sequence of instructions/algorithm for programmable device to carry out a task for example, directional instructions: forwards/backwards.",
+      "Identifies and corrects errors in a set of instructions."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 1-01a"
+    ],
+    "eo_text": "I can explore and experiment with digital technologies and can use what I learn to support and enhance my learning in different contexts.",
+    "organiser": "Using digital products and services in a variety of contexts to achieve a",
+    "benchmarks": [
+      "Communicate and collaborate with others using digital technology for example, email, Glow or other platforms.",
+      "Opens and saves a file to and from a specific location.",
+      "Identifies the key components of frequently used digital technology and whether it is a piece of hardware or software."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 1-02a"
+    ],
+    "eo_text": "Using digital technologies responsibly I can access, retrieve and use information to support, enrich or extend learning in different contexts.",
+    "organiser": "purposeful outcome Searching, processing and managing information responsibly",
+    "benchmarks": [
+      "Uses digital technology to collect, capture, combine and share text, sound, video and images.",
+      "Demonstrates an understanding of the concept of ownership of material and ideas.",
+      "Demonstrates an understanding of the different functions of a browser and search engine.",
+      "Recognises what should and shouldn‟t be searched for on the Internet."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 1-03a"
+    ],
+    "eo_text": "I can extend my knowledge of how to use digital technology to communicate with others and I am aware of ways to keep safe and secure.",
+    "organiser": "Cyber resilience and internet safety",
+    "benchmarks": [
+      "Demonstrates understanding of my rights and responsibilities as a digital citizen.",
+      "Demonstrates understanding of the potential dangers online and who to go to for advice and who to report a concern to.",
+      "Demonstrates an understanding for the need for strong passwords.",
+      "Explains the need to get a person‟s permission before taking a picture or video of them."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 1-04a"
+    ],
+    "eo_text": "I can use a range of simple food preparation techniques when working with food",
+    "organiser": "Food and Textile",
+    "benchmarks": [
+      "Demonstrates a range of practical skills when preparing foods for example washing, using a peeler, juicing, grating, cutting, simple knife skills (claw grip/bridge hold)",
+      "Uses a range of equipment when working with textiles, for example, scissors, rulers/tape measures, bodkin and wool"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 1-04b"
+    ],
+    "eo_text": "I can use a range of tools and equipment when working with textiles",
+    "organiser": "Food and Textile",
+    "benchmarks": [
+      "Investigates a simple problem /challenge which includes given criteria",
+      "Explores and identifies a range of ideas to solve the challenge / problem",
+      "Selects and uses resources to make the solution/solve the problem",
+      "Assesses solution against original criteria"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 1-04c"
+    ],
+    "eo_text": "I am developing and using problem solving strategies to meet challenges with a food or textile focus",
+    "organiser": "Food and Textile",
+    "benchmarks": []
+  },
+  {
+    "codes": [
+      "TCH 1-04d"
+    ],
+    "eo_text": "I can adapt and improve ideas and can express my own thinking in different ways",
+    "organiser": "Food and Textile",
+    "benchmarks": []
+  },
+  {
+    "codes": [
+      "TCH 1-05a"
+    ],
+    "eo_text": "I can explore the latest technologies and consider the ways in which they have developed.",
+    "organiser": "Awareness of technological developments (Past, Present and Future),",
+    "benchmarks": [
+      "Identifies changes to technologies for example, televisions and mobile phones."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 1-06a"
+    ],
+    "eo_text": "I can take appropriate action to ensure conservation of materials and resources, considering the impact of my actions on the environment.",
+    "organiser": "including how they work. Impact, contribution, and relationship of technologies onbusin es s, th eeconomy,",
+    "benchmarks": [
+      "Identifies ways in which energy can be saved.",
+      "Understands how and where we waste materials and resources."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 1-07a"
+    ],
+    "eo_text": "I understand how technologies help provide for our needs and wants, and how they can affect the environment in which we live.",
+    "organiser": "politics, and the environment.",
+    "benchmarks": [
+      "Demonstrates an understanding of how technologies, by meeting our needs and wants, affect the environment in which we live."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 1-09a"
+    ],
+    "eo_text": "I can design and construct models and explain my solutions.",
+    "organiser": "Design and constructing models/product",
+    "benchmarks": [
+      "Creates and justifies a solution to a given design challenge considering who is it for, where and how will it be used"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 1-10a"
+    ],
+    "eo_text": "I can recognise a variety of materials and suggest an appropriate material for a specific use",
+    "organiser": "Exploring uses of materials",
+    "benchmarks": [
+      "Uses appropriate tools and joining methods to construct a model",
+      "Identifies different materials",
+      "States the properties of materials (hard, soft.....)",
+      "Recognises different materials and why they have been selected for a task",
+      "Selects materials to use in a specific task"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 1-11a"
+    ],
+    "eo_text": "I can explore and experiment with sketching, manually or digitally, to represent ideas in different learning contexts.",
+    "organiser": "Representing ideas, concepts and products through a variety of graphic media",
+    "benchmarks": [
+      "Recognises 2D and 3D shapes and how they can be used to visually represent ideas/concepts.",
+      "Creates manual and/or digital sketches to represent ideas."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 1-12a"
+    ],
+    "eo_text": "I explore and discover engineering disciplines and can create solutions.",
+    "organiser": "Application of Engineering",
+    "benchmarks": [
+      "Recognises and identify different engineering disciplines.",
+      "Builds a solution to a specific task, which has moving parts."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 1-13a"
+    ],
+    "eo_text": "I can explore and comment on processes in the world around me making use of core computational thinking concepts and can organise information in a logical way",
+    "organiser": "Understanding the world through computational thinking",
+    "benchmarks": [
+      "Follows sequences of instructions/algorithms from everyday situations for example, recipes or directions, including those with selection and repetition.",
+      "Identifies steps in a process and describes precisely the effect of each step.",
+      "Makes decisions based on logical thinking including IF, AND, OR and NOT for example, collecting balls in the gym hall but NOT basketballs, line up if you are left-handed OR have green eyes."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 1-14a"
+    ],
+    "eo_text": "I understand the instructions of a visual programming language and can predict the outcome of a program written using the language.",
+    "organiser": "Understanding and analysing computing technology",
+    "benchmarks": [
+      "Demonstrates an understanding of the meaning of individual instructions when using a visual programming language (including sequences, fixed repetition and selection).",
+      "Explains and predicts what a program in a visual programming language will do when it runs for example, what audio, visual or movement effect will result.",
+      "Demonstrates an understanding that computers take information as input, process and store that information and output the results."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 1-14b"
+    ],
+    "eo_text": "I understand how computers process information.",
+    "organiser": "Understanding and analysing computing technology",
+    "benchmarks": []
+  },
+  {
+    "codes": [
+      "TCH 1-15a"
+    ],
+    "eo_text": "I can demonstrate a range of basic problem solving skills by building simple programs to carry out a given task, using an appropriate language.",
+    "organiser": "Designing, building and testing computing solutions",
+    "benchmarks": [
+      "Simplifies problems by breaking them down into smaller more manageable parts.",
+      "Constructs a sequence of instructions to solve a task, explaining the expected output from each step and how each to contributes towards solving the task.",
+      "Creates programs to carry out activities (using selection and fixed repetition) in an visual programming language."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 2-01a"
+    ],
+    "eo_text": "I can extend and enhance my knowledge of digital technologies to collect, analyse ideas, relevant information and organise these in an appropriate way.",
+    "organiser": "Using digital products and services in a variety of contexts to achieve a purposeful",
+    "benchmarks": [
+      "Identifies and saves in a range of standard file formats",
+      "Saves files using an organised filing system.",
+      "Stores, shares and collaborates using an online cloud based service for example, Glow or other platforms.",
+      "Identifies the key features of input, output and storage devices.",
+      "Selects and use applications and software to capture, create and modify text, images,"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 2-02a"
+    ],
+    "eo_text": "I can use digital technologies to search, access and retrieve information and are aware that not all of this information will be credible.",
+    "organiser": "outcome Searching, processing and managing information responsibly",
+    "benchmarks": [
+      "sound and video.",
+      "Selects the most appropriate digital software to perform a task.",
+      "Uses search engines to search the internet for specific or relevant information for example, using quotation marks to narrow the results.",
+      "Access websites and use navigation skills to retrieve information for a specific task.",
+      "Demonstrates an understanding of usage rights and can apply these within a search for example creative commons"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 2-03a"
+    ],
+    "eo_text": "I can explore online communities demonstrating an understanding of responsible digital behaviour and I‟m aware of how to keep myself safe and secure.",
+    "organiser": "Cyber resilience and internet safety",
+    "benchmarks": [
+      "Demonstrates an understanding of the content they should include in an online profile.",
+      "Discusses the importance of being a responsible digital citizen, giving examples of appropriate online behaviours and actions.",
+      "Identifies appropriate ways to report concerns.",
+      "Uses strong passwords."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 2-04a"
+    ],
+    "eo_text": "I am developing dexterity, creativity and confidence when preparing and cooking food",
+    "organiser": "Food and Textile",
+    "benchmarks": [
+      "Demonstrates an increasing range of practical skills and cooking techniques for example accurate weighing and measuring, kneading, chopping, baking, grilling",
+      "Demonstrates manual dexterity, for example, cutting more intricate shapes, manipulating fabrics and embellishments to create designs on fabric, using a needle and thread, attaching"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 2-04b"
+    ],
+    "eo_text": "I am developing dexterity, creativity and confidence when working with textiles",
+    "organiser": "Food and Textile",
+    "benchmarks": [
+      "designs onto fabric",
+      "Investigates a challenge / problem",
+      "Identifies and demonstrates ways to solve the challenge / problem",
+      "Identifies and selects appropriate resources to solve the challenge/problem",
+      "Plans and makes the solution"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 2-04c"
+    ],
+    "eo_text": "I can extend and explore problem solving strategies to meet increasingly difficult challenges with a food or textile focus",
+    "organiser": "Food and Textile",
+    "benchmarks": [
+      "Assesses solution against own criteria",
+      "Identifies at least one possible improvement"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 2-04d"
+    ],
+    "eo_text": "I can discuss, debate and improve my ideas with increasing confidence and clear explanations",
+    "organiser": "Food and Textile",
+    "benchmarks": []
+  },
+  {
+    "codes": [
+      "TCH 2-05a"
+    ],
+    "eo_text": "I can investigate how product design and development have been influenced by changing lifestyles.",
+    "organiser": "Awareness of technological developments (Past, Present and Future),",
+    "benchmarks": [
+      "Gives examples of how our changing lifestyles have impacted on product design."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 2-06a"
+    ],
+    "eo_text": "I can analyse how lifestyles can impact on the environment and Earth‟s resources and can make suggestions about how to live in a more sustainable way.",
+    "organiser": "including how they work. Impact, contribution, and relationship of technologies on business, the economy,",
+    "benchmarks": [
+      "Explains how and why it is important to conserve energy.",
+      "Discusses the advantages and disadvantages of how technologies impact on the environment"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 2-07a"
+    ],
+    "eo_text": "I can make suggestions as to how individuals and organisations may use technologies to support sustainability and reduce the impact on our environment.",
+    "organiser": "politics, and the environment.",
+    "benchmarks": [
+      "for example, renewable energy technologies."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 2-09a"
+    ],
+    "eo_text": "I can extend and enhance my design skills to solve problems and can construct models.",
+    "organiser": "Design and constructing models/product",
+    "benchmarks": [
+      "Uses tools and equipment in order to carry out a task safely.",
+      "Uses a range of methods to join and strengthen materials.",
+      "Estimates and then measures accurately using appropriate units and tools.",
+      "Creates a range of ideas and chooses a suitable solution"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 2-10a"
+    ],
+    "eo_text": "I can recognise basic properties  and uses for a variety of materials  and can discuss which ones  are most suitable for a given task.",
+    "organiser": "Exploring uses of materials",
+    "benchmarks": [
+      "Evaluates solutions and explains why they are or are not suitable Recognises characteristics of groups of materials such as wood, plastic and metal. Selects suitable materials to use in a task Discuss the uses of materials"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 2-11a"
+    ],
+    "eo_text": "I can use a range of graphic  techniques, manually and digitally,  to communicate ideas, concepts  or products, experimenting with  theuseofshape, c o lo urand  t e xt uretoenhancemywork. ",
+    "organiser": "Representing ideas, concepts and products through a variety o f graphic media",
+    "benchmarks": [
+      "Sketches geometric shapes to create objects. Produces sketches to communicate ideas that include pattern and texture Draws geometric shapes accurately. Sketches 2D and 3D drawings of objects Desc ri besp ri maryandseconda ry c o lo u rs andthemoods /f e e li ngassociatedw it h e ach. Demonst ra te splann in gforata rg etedaudien ce w h en c re a t in gaofgraphicdi sp l a y"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 2-12a"
+    ],
+    "eo_text": "I can extend my knowledge and understanding of engineering disciplines to create solution.",
+    "organiser": "Application of Engineering",
+    "benchmarks": [
+      "Understands the difference between different engineering disciplines",
+      "Understands different energy types.",
+      "Builds/simulates solutions to engineering problems."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 2-13a"
+    ],
+    "eo_text": "I understand the operation of a process and its outcome. I can structure related items of information.",
+    "organiser": "Understanding the world through computational thinking",
+    "benchmarks": [
+      "Compares activities consisting of a single sequence of steps with those consisting of multiple parallel steps, for example, making tomato sauce and cooking pasta to be served at the same time.",
+      "Identifies algorithms/instructions that include repeated groups of instructions a fixed number of times and/or loops until a condition is met.",
+      "Identifies when a process is not predictable because it has a random element for example,"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 2-14a"
+    ],
+    "eo_text": "I can explain core programming language concepts in appropriate technical language.",
+    "organiser": "Understanding and analysing computing technology",
+    "benchmarks": [
+      "Explains the meaning of individual instructions (including variables and conditional repetition) in a visual programming language",
+      "Predicts what a complete program in a visual programming language will do when it runs, including how the properties of objects for example, position, direction and appearance change as the"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 2-14b"
+    ],
+    "eo_text": "I understand how information is stored and how key components of computing technology connect and interact through networks.",
+    "organiser": "Understanding and analysing computing technology",
+    "benchmarks": [
+      "program runs through each instruction.",
+      "Explains and predicts how parallel activities interact",
+      "Demonstrates an understanding that all computer data is represented in binary for example, numbers, text, black and white graphics.",
+      "Describes the purpose of the processor, memory and storage and the relationship between them"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 2-15a"
+    ],
+    "eo_text": "I can create, develop and evaluate computing solutions in response to a design challenge",
+    "organiser": "Designing, building and testing computing solutions",
+    "benchmarks": [
+      "Demonstrates an understanding of how networks are connected and used to communicate and share information, for example the internet.",
+      "Creates programs in a visual programming language including variables and conditional repetition.",
+      "Identifies patterns in problem solving and reuses aspects of previous solutions appropriately for example, reuse code for a timer, score counter or controlling arrow keys.",
+      "Identifies any mismatches between the task description and the programmed solution,"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 3-01a"
+    ],
+    "eo_text": "I can explore and use the features of a range of digital technologies, integrated software and online resources to determine the most appropriate to solve problems.",
+    "organiser": "Using digital products and services in a variety of contexts to achieve a purposeful",
+    "benchmarks": [
+      "Uses the most appropriate applications and software tools to capture, create and modify text, images, sound, and video to present and collaborate.",
+      "Demonstrates an understanding of file handling for example, uploading, downloading, sharing and permission setting, for example within Glow or other platforms."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 3-02a"
+    ],
+    "eo_text": "Having used digital technologies to search, access and retrieve information I can justify my selection in terms of validity, reliability and have an awareness of plagiarism.",
+    "organiser": "outcome Searching, processing and managing information responsibly",
+    "benchmarks": [
+      "Gathers and combines data and information from a range of sources to create a publication, presentation or information resource.",
+      "Uses applications to analyse data and identify trends/make predictions based on source data.",
+      "Demonstrates efficient searching techniques for example using \"and‟, \"or‟, ‟not‟"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 3-03a"
+    ],
+    "eo_text": "I can keep myself safe and secure in online environments and I am aware of the importance and consequences of doing this for myself and others.",
+    "organiser": "Cyber resilience and internet safety",
+    "benchmarks": [
+      "Demonstrates an understanding of the legal implications and importance of protecting their own and others‟ privacy when communicating online.",
+      "Evaluates online presence and identifies safe guards.",
+      "Present relevant ideas and information to explain risks to safety and security of their personal devices and networks including encryption.",
+      "Applies appropriate online safety features when becoming involved with online communities"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 3-04a"
+    ],
+    "eo_text": "I am gaining confidence and dexterity in the use of ingredients and equipment and can apply specialist skills in preparing food.",
+    "organiser": "Food and Textile",
+    "benchmarks": [
+      "Selects from and uses a wider range of ingredients and a more complex range of skills and equipment, for example, rubbing-in, shaping, simmering, creaming, decorating, garnishing",
+      "Demonstrates competence when pinning, tacking and using a sewing machine, for example, can measure accurately, place pins at correct measurement, tack neatly and sew a straight line and curve on a sewing machine, following marked lines"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 3-04b"
+    ],
+    "eo_text": "I can use textile skills in practical and creative situations in my place of learning, at home or in the world of work",
+    "organiser": "Food and Textile",
+    "benchmarks": [
+      "Uses a variety of practical skills to create a personalised item",
+      "Uses a range of strategies to investigate a design brief and create a specification",
+      "Identifies and demonstrates creative and innovative ways to solve the design brief",
+      "Researches materials and resources available",
+      "Designs and makes new product",
+      "Evaluates the product against own specification and identifies how it could be improved"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 3-04c"
+    ],
+    "eo_text": "By using problem-solving strategies and showing creativity in a design challenge, I can plan, develop, make and evaluate food or textile items which meet needs at home or in the world of work.",
+    "organiser": "Food and Textile",
+    "benchmarks": []
+  },
+  {
+    "codes": [
+      "TCH 3-05a"
+    ],
+    "eo_text": "I understand how scientific and technological developments have contributed to changes in everyday products.",
+    "organiser": "Awareness of technological developments (Past, Present and Future),",
+    "benchmarks": [
+      "Discusses advantages and disadvantages of using technologies in our everyday life."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 3-06a"
+    ],
+    "eo_text": "I can evaluate the implications forindividuals and societies of the ethical issues arising from technological developments.",
+    "organiser": "including how they work. Impact, contribution, and relationship of technologies on business,",
+    "benchmarks": [
+      "Demonstrate an awareness of ethical issues around product development"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 3-07a"
+    ],
+    "eo_text": "I can identify the costs and benefits of using technologies to reduce the impact of our activities on the environment and business.",
+    "organiser": "the economy, politics, and the environment.",
+    "benchmarks": [
+      "Demonstrates an understanding of the impact of technologies on the environment and business"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 3-08a"
+    ],
+    "eo_text": "I can explore the impact, contribution and use of various software applications and emerging hardware in business.",
+    "organiser": "",
+    "benchmarks": []
+  },
+  {
+    "codes": [
+      "TCH 3-09a"
+    ],
+    "eo_text": "I can create solutions in 3D and 2D and can justify the construction/graphic methods and the design features.",
+    "organiser": "Design and constructing models/product",
+    "benchmarks": [
+      "Uses aspects of the design process to reach a solution for a given brief",
+      "Identifies relevant design factors in a design brief",
+      "Applies knowledge of design factors and construction methods to justify a design solution",
+      "Uses tools and equipment to manufacture models/products"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 3-10a"
+    ],
+    "eo_text": "I can explore the properties and performance of materials before justifying the most appropriate material for a task",
+    "organiser": "Exploring uses of materials",
+    "benchmarks": [
+      "Applies safe working practices when creating a model/product",
+      "Extracts dimensions from a drawing and transfer these onto materials to create a model/product",
+      "Identifies the different categories of materials.",
+      "Recognises that materials have different properties and uses.",
+      "Recognises that material properties have an impact upon manufacturing processing choices.",
+      "Recognises that materials come in different forms.",
+      "Justifies selection of materials when developing a solution to a problem or brief"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 3-11a"
+    ],
+    "eo_text": "I can apply a range of graphic techniques and standards when producing images using sketching, drawing and software.",
+    "organiser": "Representing ideas, concepts and products through a variety of graphic media",
+    "benchmarks": [
+      "Discusses sustainability and environmental impact of sourcing and using different materials.",
+      "Produces sketches which show an understanding of proportion.",
+      "Produces 2D and 3D sketches using a range of techniques.",
+      "Produces rendered drawings which may include colour, surface texture, tonal change",
+      "Justifies the choice of colours, layout in a promotional graphics.",
+      "Recognises design principles and DTP terms."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 3-12a"
+    ],
+    "eo_text": "I can apply my knowledge and understanding of engineering disciplines and can develop/build solutions to given tasks.",
+    "organiser": "Application of Engineering",
+    "benchmarks": [
+      "Explain why something is an Input, process, output.",
+      "Builds/simulates solutions to engineering problems",
+      "Explains energy transfers within a system",
+      "Uses given formulae to calculate outcomes to engineering problems."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 3-13a"
+    ],
+    "eo_text": "I can describe different fundamental information processes and how they communicate and can identify their use in solving different problems",
+    "organiser": "Understanding the world through computational thinking",
+    "benchmarks": [
+      "Recognises and describes information systems with communicating processes which occur in the world around me",
+      "Explains the difference between parallel processes and those that communicate with each other",
+      "Demonstrates an understanding of the basic principles of compression and encryption"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 3-13b"
+    ],
+    "eo_text": "I am developing my understanding of information and can use an information model to describe particular aspects of a real world system",
+    "organiser": "Understanding the world through computational thinking",
+    "benchmarks": [
+      "of information",
+      "Identifies a set of characteristics describing a collection of related items that enable each item to be individually identified",
+      "Identifies the use of common algorithms such as sorting and searching as part of larger processes."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 3-14a"
+    ],
+    "eo_text": "I understand language constructs for representing structured information",
+    "organiser": "Understanding and analysing computing technology",
+    "benchmarks": [
+      "Understands that the same information could be represented in more than one representational system",
+      "Understands that different information could be represented in exactly the same representation",
+      "Demonstrates an understanding of structured information in programs, databases or webpages"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 3-14b"
+    ],
+    "eo_text": "I can describe the structure and operation of computing systems which have multiple software and hardware levels that interact with each other.",
+    "organiser": "Understanding and analysing computing technology",
+    "benchmarks": [
+      "Describes the effect of mark-up language on the appearance of a webpage, and understand that this may be different on different devices",
+      "Demonstrates an understanding of the von Neumann architecture and how machine code instructions are stored and executed within a computer system",
+      "Reads and explains code extracts including those with variables and data structures",
+      "Demonstrate an understanding of how computers communicate and share information over networks including the concepts of sender, receiver, address and packets."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 3-15a"
+    ],
+    "eo_text": "I can select appropriate development tools to design, build, evaluate and refine computing solutions based on requirements",
+    "organiser": "Designing, building and testing computing solutions",
+    "benchmarks": [
+      "Designs and builds a program using a visual language combining constructs and using multiple variables.",
+      "Represents and manipulates structured information in programs, or databases for example, works with a list data structure in a visual language, or a flat file database.",
+      "Interprets a problem statement, and identifies processes and information to create a physical"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-01a"
+    ],
+    "eo_text": "I can select and use digital technologies to access, select relevant information and solve real world problems.",
+    "organiser": "Using digital products and services in a variety of contexts to achieve a",
+    "benchmarks": [
+      "Demonstrates an understanding of how digital literacy will impact on their future learning and career pathways.",
+      "Consistently use a range of devices and digital software and applications and services to share, create, collaborate effectively and publish digital content online"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-02a"
+    ],
+    "eo_text": "I can use digital technologies to process and manage information responsibly and can reference sources accordingly.",
+    "organiser": "purposeful outcome Searching, processing and managing information responsibly",
+    "benchmarks": [
+      "Gathers, evaluates and combines data and information from a range of sources to create a publication, presentation or information resource.",
+      "Evaluates applications to analyse data and identify trends/make predictions based on source data.",
+      "Evaluates efficient searching techniques for example using \"and‟, \"or‟,‟not‟"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-03a"
+    ],
+    "eo_text": "I can explore the impact of cyber-crime for business and industry and the consequences this can have on me.",
+    "organiser": "Cyber resilience and internet safety",
+    "benchmarks": [
+      "Demonstrates understanding of how industry collects and uses personal data ethically and how this relates to data security legislation.",
+      "Demonstrates understanding of how cyber security breaches in industry can impact on individuals.",
+      "Evaluates the digital footprint of industry and identifies good practice",
+      "Identifies the main causes of security breaches in industry."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-04a"
+    ],
+    "eo_text": "I can explore the properties and functionality of ingredients, textiles and equipment to establish their suitability for a task at home or in the world of work.",
+    "organiser": "Food and Textile",
+    "benchmarks": [
+      "Demonstrates an understanding of functional properties of food, for example, adding air, binding, glazing, thickening through preparing a variety of foods",
+      "Selects appropriate fabrics, taking into consideration fabric properties, to meet the needs of a task",
+      "Independently carries out a range of techniques and processes to make food and textile items for example,"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-04b"
+    ],
+    "eo_text": "I can confidently apply preparation techniques and processes to make food and textile items using specialist skills, materials, equipment in my place of learning, at home or in the world of work.",
+    "organiser": "Food and Textile",
+    "benchmarks": [
+      "Food; whisking, folding, sauce making, testing for readiness, blend",
+      "Textiles; seam finishes - pinking, zig zag, hems, casing, simple applique, simple pocket, fastenings such as Velcro",
+      "Uses a range of strategies to provide a detailed investigation of a more complex design brief",
+      "Creates a detailed specification to meet the brief",
+      "Identifies and justifies potential solutions for the brief",
+      "Researches and selects appropriate materials and resources",
+      "Designs and makes item to meet the needs of the brief"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-04c"
+    ],
+    "eo_text": "Showing creativity and innovation I can design, plan and produce increasingly complex food or textile items which satisfy the needs of the user, at home or in the world of work.",
+    "organiser": "Food and Textile",
+    "benchmarks": [
+      "Evaluates the quality and effectiveness of the item in relation to the specification",
+      "Justifies improvements to own and others‟ products"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-04d"
+    ],
+    "eo_text": "I can apply skills of critical thinking when evaluating the quality and effectiveness of my own or others‟ products.",
+    "organiser": "Food and Textile",
+    "benchmarks": []
+  },
+  {
+    "codes": [
+      "TCH 4-05a"
+    ],
+    "eo_text": "I can analyse products taking intoconside ra t io nsustainab ility,  scient if ic andtechnological developments.",
+    "organiser": "A w a re n e ss o f te ch n o lo g ic al developments (Past, Present",
+    "benchmarks": [
+      "Identifies factors which affect product design."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-06a"
+    ],
+    "eo_text": "I can examine a range of materials, processes or designs in my local community to consider their environmental, social and economic impact.",
+    "organiser": "and Future), including how they work. Impact, contribution, and relationship of technologies on business,",
+    "benchmarks": [
+      "Demonstrates an understanding of the impact of materials and processes on design."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-07a"
+    ],
+    "eo_text": "I can present conclusions about the impact of technologies on the economy, politics and the environment.",
+    "organiser": "the economy, politics, and the environment.",
+    "benchmarks": [
+      "Explains the impact of technologies on globalisation, patterns of work and conditions of employment."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-08a"
+    ],
+    "eo_text": "I can select and use appropriate hardware and software which supports evolving business activities.",
+    "organiser": "the economy, politics, and the environment.",
+    "benchmarks": [
+      "Updates and presents information using appropriate hardware and software"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-09a"
+    ],
+    "eo_text": "I can apply design thinking skills when designing and manufacturing models/products which satisfy the user or client.",
+    "organiser": "Design and constructing models/product",
+    "benchmarks": [
+      "Understands approaches to designing and that a range of strategies and phases can help arrive at a potential proposal that meets specific criteria",
+      "Uses modelling techniques to evaluate design concepts and design proposals",
+      "Justifies design decisions."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-10a"
+    ],
+    "eo_text": "I consider the material performance as well as sustainability of materials and apply these to real world tasks.",
+    "organiser": "Exploring uses of materials",
+    "benchmarks": [
+      "Selects tools and equipment to mark-out, cut, shape, form and finish models/products independently.",
+      "Identifies potential health and safety risks in the manufacture of models/products and plan the safe working practices required",
+      "Produces accurate prototypes, in scale, by reading drawings and sketches to retrieve dimensional and material information",
+      "Describes the different categories of materials",
+      "Describes the properties of materials",
+      "Recognises sustainability issues when selecting materials"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-11a"
+    ],
+    "eo_text": "I can extend my use of manual  and digital graphic techniques  to realise ideas, concepts and products and recognise the  importance of real world standards. ",
+    "organiser": "Representing ideas, concepts and products through a variety of graphic media",
+    "benchmarks": [
+      "Produces sketches which show proportion and scale. Produces 2D and 3D sketches using perspective techniques, surface texture, tonal change and colour Uses colouring media when drawing/sketching Plans and justifies the choice of colours, layout and presentation techniques in graphic displays",
+      "Recognises and can apply the design principles and DTP terms."
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-12a"
+    ],
+    "eo_text": "      I can solve problems through the application of engineering principles and can discuss the impact engineering has on the world around me.",
+    "organiser": "Application of Engineering",
+    "benchmarks": [
+      "Plans, produces and justifies the choice of informational graphics to suit a given scenario or brief. Produces orthographic and pictorial drawings by extracting information from given drawings, including detail such as hidden detail, centre axis. Identifies and uses appropriate drawing standards, symbols and conventions, including third angle projection, dimensioning, line types and use of scale. Creates assembled and exploded pictorial drawings from a 3D CAD assembly model. Identifies CAD commands, techniques and practice employed in the production of 3D graphics and models. Produces rendered 3D CAD models to show the light source, surface texture, materials applied to the model and a background",
+      "Produces systems diagrams, including open and closed loop and the identification of sub-systems",
+      "Designs and builds/simulates solutions to problems",
+      "Selects and uses formulae to calculate outcomes to engineering problems.",
+      "Identifies and describes the function of specific components to justify their use within the solution to a problem"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-13a"
+    ],
+    "eo_text": "I can describe in detail the processes used in real world solutions, compare these processes against alternative solutions and justify which is the most appropriate.",
+    "organiser": "Understanding the world through computational thinking",
+    "benchmarks": [
+      "Evaluates and explains design decisions around an engineering solution, including the advantages, disadvantages, consequences and the social, economic and environmental impact.",
+      "Identifies the transfer of information through complex systems involving both computers and physical artefacts, for example, airline check-in, parcel tracking and delivery.",
+      "Describes instances of human decision making as an information process, for example, deciding which check-out queue to pick, which route to take to school, how to prepare family dinner / a school event.",
+      "Compares alternative algorithms for the same problem and understands that there are different ways of defining \"better\" solutions depending on the problem context for example, is speed or space"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-13b"
+    ],
+    "eo_text": "I can informally compare algorithms for correctness and efficiency",
+    "organiser": "Understanding the world through computational thinking",
+    "benchmarks": [
+      "more valuable in this context?"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-14a"
+    ],
+    "eo_text": "I understand constructs and data structures in a textual programming language",
+    "organiser": "Understanding and analysing computing technology",
+    "benchmarks": [
+      "Understands basic control constructs such as sequence, selection repetition, variables and numerical calculations in a textual language",
+      "Demonstrates an understanding of how visual instructions and textual instructions"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-14b"
+    ],
+    "eo_text": "I can explain the overall operation and architecture of a digitally created solution",
+    "organiser": "Understanding and analysing computing technology",
+    "benchmarks": [
+      "for the same construct are related",
+      "Identifies and explains syntax errors in a program written in a textual language",
+      "Demonstrates an understanding of representations of data structures in a textual language.",
+      "Demonstrates an understanding of how computers represent and manipulate information in a range of formats"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-14c"
+    ],
+    "eo_text": "I understand the relationship between high level language and the operation of computer",
+    "organiser": "Understanding and analysing computing technology",
+    "benchmarks": [
+      "Demonstrates an understanding of program plans expressed in accepted design representations for example pseudocode, storyboarding, structure diagram, data flow diagram, flow chart",
+      "Demonstrates an understanding of the underling technical concepts of some specific facets of modern complex technologies for example, on line payment systems and satnav.",
+      "Demonstrates an understanding that computers translate information processes between"
+    ]
+  },
+  {
+    "codes": [
+      "TCH 4-15a"
+    ],
+    "eo_text": "I can select appropriate development tools to design, build, evaluate and refine computing solutions to process and present information whilst making reasoned arguments to justify my decisions.",
+    "organiser": "Designing, building and testing computing solutions",
+    "benchmarks": [
+      "different levels of abstraction",
+      "Analyses problem specifications across a range of contexts, identifying key requirements.",
+      "Writes a program in a textual language which uses variables and constructs such as sequence, selection and repetition.",
+      "Creates a design using accepted design notations for example, pseudocode storyboarding, structure diagram, data flow diagram, flow chart.",
+      "Develops a relational database to represent structured information.",
+      "Debugs code and can distinguish between the nature of identified errors e.g. syntax and logic."
+    ]
+  }
+]

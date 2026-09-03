@@ -1,0 +1,50 @@
+[
+  {
+    "codes": ["CLAN 3-01a"],
+    "organiser": "Translating texts",
+    "eo_text": "By developing my knowledge of how a classical language works, I can analyse straightforward sentences or short passages and translate them into appropriate English.",
+    "benchmarks": ["Uses knowledge of the vocabulary and straightforward grammatical structures of the classical language to work out the meaning of the texts and to communicate this into English, in written or oral form.", "Demonstrates understanding of how the language works, through, for example, translating straightforward grammatical structures into English."]
+  },
+  {
+    "codes": ["CLAN 3-02a"],
+    "organiser": "Interpretation of texts",
+    "eo_text": "Individually and with others, I have used a range of resources and applied analytical skills. I can find specific information in a grammatically-straightforward passage in a classical language.",
+    "benchmarks": ["Explores texts of varying length, in order to demonstrate understanding of content, structures and familiar vocabulary in different contexts.", "Uses resources such as a grammar reference, dictionary or word-list to check understanding and analysis.", "Applies a range of analytical skills and strategies to read unfamiliar texts with increasing understanding."]
+  },
+  {
+    "codes": ["CLAN 3-03a"],
+    "organiser": "Using knowledge about language",
+    "eo_text": "By applying my awareness of how classical Greek has linguistic links with English or Latin with English and other modern European languages which are based on Latin, I can enhance the range of my vocabulary and increase my confidence in communicating in English.",
+    "benchmarks": ["Transfers knowledge of word roots, sentence and text structures gained from learning classical languages to written and spoken English", "Uses knowledge of context, word families and grammatical structures in the classical language to support understanding and use of English."]
+  },
+  {
+    "codes": ["CLAN 3-04a"],
+    "organiser": "Culture and heritage",
+    "eo_text": "I have investigated the culture and heritage of the Greeks or Romans through language and literature. I can demonstrate my knowledge of their cultures by contributing to an oral or written presentation on their influences on the heritage of modern Scotland and the wider world.",
+    "benchmarks": ["Plans and produces a piece of research, either in written or oral form, with simple explanations of how Greek or Roman cultures influence modern day Scotland."]
+  },
+  {
+    "codes": ["CLAN 4-01a"],
+    "organiser": "Translating texts",
+    "eo_text": "By applying my understanding of grammatical processes in a classical language, I can analyse more complex sentences and longer passages and translate them into  appropriate and accurate English.",
+    "benchmarks": ["Analyses sentence structures within texts of varying length and complexity and can render these in coherent written or oral English.", "Demonstrates increasing accuracy in interpreting and analysing texts."]
+  },
+  {
+    "codes": ["CLAN 4-02a"],
+    "organiser": "Interpretation of texts",
+    "eo_text": "I can use a range of resources, and apply analytical skills to find specific information and the main ideas or themes of a passage in a classical language and make evaluative judgements, orally and in writing.",
+    "benchmarks": ["Applies a range of analytical skills and strategies to read unfamiliar texts with increasing understanding", "Demonstrates understanding of structures in texts of varying length which contain familiar and unfamiliar vocabulary.", "Uses independently resources such as a grammar reference, dictionary or word-list to check understanding, interpretation and analysis of texts.", "Makes evaluative judgements about features of language such as word choice, structure, characterisation and/or setting with reference to the text."]
+  },
+  {
+    "codes": ["CLAN 4-03a"],
+    "organiser": "Using knowledge about language",
+    "eo_text": "Through an awareness of features common to classical Greek and English, or Latin and English and other languages, I have enhanced the range of my vocabulary and increased my confidence in communicating in English. I can discuss how language reflects the thoughts, feelings and needs of different societies in the past and today.",
+    "benchmarks": ["Applies knowledge of derivatives and grammatical structures gained from learning classical languages into their written and spoken English", "Demonstrates  understanding of a wide range of texts in the classical language, its vocabulary and language structures", "Demonstrates confidence when discussing the content, language and structure of texts, identifying features common to the classical language and English."]
+  },
+  {
+    "codes": ["CLAN 4-04a"],
+    "organiser": "Culture and heritage",
+    "eo_text": "I have evaluated the culture and heritage of the Greeks or Romans through language and literature. I can demonstrate understanding of how their cultures have impacted in different ways on the culture and life in modern Scotland and the wider world through an oral or written presentation of my research.",
+    "benchmarks": ["Uses critical analysis to evaluate the significance of Greek or Roman language.", "Plans and produces a piece of research of appropriate length, either in written or oral form, an explanation of how and why Greek or Roman cultures influence and link to vital parts of modern day Scotland."]
+  }
+]
