@@ -119,7 +119,7 @@ a { color: var(--purple-light); }
   z-index: 1;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 1.8rem 1.5rem 5rem;
+  padding: 1.8rem 1.5rem 3rem;
 }
 .page-header { margin-bottom: 1.8rem; }
 .page-header h1 { font-family: Fraunces, serif; font-weight: 600; margin: 0 0 6px; font-size: 1.7rem; color: #fff; }
@@ -332,15 +332,22 @@ mark { background: rgba(251, 191, 36, 0.35); color: inherit; border-radius: 3px;
 .remove-btn:hover { color: var(--danger); }
 
 footer.site-footer {
-  position: relative;
-  z-index: 1;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 40;
   text-align: center;
-  color: rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.4);
   font-size: 0.7rem;
-  letter-spacing: 0.04em;
-  padding: 2.5rem 20px 3rem;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  padding: 8px 20px;
+  background: rgba(13, 10, 46, 0.85);
+  backdrop-filter: blur(6px);
+  border-top: 1px solid var(--purple-border);
 }
-footer.site-footer a { color: rgba(255,255,255,0.35); }
+footer.site-footer a { color: var(--purple-light); }
 
 @media (max-width: 600px) {
   .site-header { flex-wrap: wrap; }
