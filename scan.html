@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scan a Unit - BGE Benchmarks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="bg"></div>
+
+<header class="site-header">
+  <img class="logo" src="images/logo.png" alt="csteach.uk">
+  <div class="header-text">
+    <h1>BGE Benchmarks</h1>
+    <p>Curriculum for Excellence benchmarks, made searchable</p>
+  </div>
+</header>
+
+<nav class="pill-nav">
+  <a href="index.html" class="pill-btn">Search</a>
+  <a href="scan.html" class="pill-btn active">Scan a Unit</a>
+  <a href="project.html" class="pill-btn">My Project <span class="count" data-project-count>0</span></a>
+  <a href="about.html" class="pill-btn">About</a>
+</nav>
+
+<main class="page" style="max-width:760px;">
+  <div class="page-header">
+    <h1>Scan a Unit for Benchmarks</h1>
+    <p>Upload a unit's notes or plan as a PDF and get a suggested list of matching benchmarks, ready to drop into your project.</p>
+  </div>
+
+  <div class="controls">
+    <div class="filter-group" style="margin-top:0;">
+      <div class="filter-group-label">1. Curriculum area</div>
+      <p style="color:var(--muted); font-size:0.82rem; margin:0 0 10px;">Matching only within one area keeps unrelated subjects (e.g. Health &amp; Wellbeing) from crowding out the real matches.</p>
+      <select id="areaSelect" style="width:100%; padding:11px 14px; border-radius:10px; border:1px solid var(--purple-border); background:rgba(255,255,255,0.04); color:var(--text); font-family:inherit; font-size:0.95rem;">
+        <option value="">Loading areas&hellip;</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <div class="filter-group-label">2. PDF file</div>
+      <input type="file" id="pdfInput" accept="application/pdf" style="width:100%; color:var(--text); font-family:inherit; font-size:0.9rem; color-scheme:dark;">
+    </div>
+    <div class="filter-group">
+      <button class="btn primary" id="scanBtn" disabled>Scan PDF</button>
+      <span id="scanStatus" style="color:var(--muted); font-size:0.85rem; margin-left:10px;"></span>
+    </div>
+  </div>
+
+  <div id="resultsArea"></div>
+</main>
+
+<footer class="site-footer">A free tool for Scottish teachers, not affiliated with Education Scotland &middot; <a href="https://ko-fi.com/csteachian" target="_blank" rel="noopener">buy me a coffee</a></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="js/app.js"></script>
+<script>
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+
+const LEVEL_LABELS = { 0: "Early", 1: "First", 2: "Second", 3: "Third", 4: "Fourth" };
+
+let ALL = [];
+let pickedGroups = [];
+
+async function extractPdfText(file) {
+  const buf = await file.arrayBuffer();
+  const pdf = await pdfjsLib.getDocument({ data: buf }).promise;
+  let text = "";
+  for (let i = 1; i <= pdf.numPages; i++) {
+    const page = await pdf.getPage(i);
+    const content = await page.getTextContent();
+    text += content.items.map((it) => it.str).join(" ") + "\n";
+  }
+  return text;
+}
+
+function updateScanButton() {
+  const area = document.getElementById("areaSelect").value;
+  const file = document.getElementById("pdfInput").files[0];
+  document.getElementById("scanBtn").disabled = !(area && file);
+}
+
+function groupCardHtml(g) {
+  const color = colorForOrganiser(g.organiser);
+  return `
+  <div class="card" style="--card-color:${color}; margin-bottom:10px;">
+    <div class="card-top"><span class="eo-code">${escapeHtml(g.eoCode)}</span></div>
+    <div class="organiser-tag">${escapeHtml(g.organiser)}</div>
+    <p class="eo-text" style="margin-bottom:8px;">${escapeHtml(g.eoText)}</p>
+    <p style="color:var(--muted); font-size:0.8rem; margin:0;">${g.rows.length} benchmark${g.rows.length === 1 ? "" : "s"}</p>
+  </div>`;
+}
+
+function renderResults() {
+  const area = document.getElementById("resultsArea");
+  if (!pickedGroups.length) {
+    area.innerHTML = `<div class="empty-state"><h2>No clear matches</h2><p>Try a different curriculum area, or browse and star benchmarks manually on the Search page.</p></div>`;
+    return;
+  }
+  const totalBenchmarks = pickedGroups.reduce((n, g) => n + g.rows.length, 0);
+  const currentCount = getProject().length;
+  area.innerHTML = `
+    <div class="section-label">${pickedGroups.length} matching experience${pickedGroups.length === 1 ? "" : "s"} &amp; outcomes found</div>
+    ${pickedGroups.map(groupCardHtml).join("")}
+    <div class="controls" style="margin-top:20px;">
+      <p style="color:#fbbf24; font-size:0.85rem; margin:0 0 12px;">&#9888; Adding these will <strong>replace</strong> everything currently in My Project${currentCount ? ` (${currentCount} item${currentCount === 1 ? "" : "s"})` : ""}.</p>
+      <button class="btn primary" id="applyBtn">Add ${totalBenchmarks} benchmark${totalBenchmarks === 1 ? "" : "s"} to My Project</button>
+    </div>
+  `;
+  document.getElementById("applyBtn").addEventListener("click", () => {
+    const currentCount2 = getProject().length;
+    const warning = currentCount2
+      ? `This will replace the ${currentCount2} item${currentCount2 === 1 ? "" : "s"} currently in My Project with these ${totalBenchmarks} matched benchmarks. Continue?`
+      : `Add these ${totalBenchmarks} matched benchmarks to My Project?`;
+    if (!confirm(warning)) return;
+    const ids = pickedGroups.flatMap((g) => g.rows.map((r) => r.id));
+    saveProject(ids);
+    updateProjectBadge();
+    window.location.href = "project.html";
+  });
+}
+
+async function runScan() {
+  const areaSelect = document.getElementById("areaSelect");
+  const file = document.getElementById("pdfInput").files[0];
+  const status = document.getElementById("scanStatus");
+  const area = areaSelect.value;
+  if (!area || !file) return;
+
+  document.getElementById("scanBtn").disabled = true;
+  document.getElementById("resultsArea").innerHTML = "";
+  try {
+    status.textContent = "Reading PDF…";
+    const text = await extractPdfText(file);
+    if (!text.trim()) {
+      status.textContent = "";
+      document.getElementById("resultsArea").innerHTML = `<div class="empty-state"><h2>No text found</h2><p>This PDF doesn't seem to contain any extractable text (it may be scanned images rather than real text).</p></div>`;
+      return;
+    }
+    status.textContent = `Matching against ${area} benchmarks…`;
+    const rows = ALL.filter((r) => r.area === area);
+    pickedGroups = pickBestMatches(text, rows);
+    status.textContent = "";
+    renderResults();
+  } catch (err) {
+    status.textContent = "";
+    document.getElementById("resultsArea").innerHTML = `<div class="empty-state"><h2>Couldn't read that PDF</h2><p>${escapeHtml(err.message || String(err))}</p></div>`;
+  } finally {
+    updateScanButton();
+  }
+}
+
+async function init() {
+  ALL = await loadBenchmarks();
+  const areas = [...new Set(ALL.map((i) => i.area))].sort();
+  const select = document.getElementById("areaSelect");
+  select.innerHTML = `<option value="">Choose a curriculum area&hellip;</option>` + areas.map((a) => `<option value="${escapeHtml(a)}">${escapeHtml(a)}</option>`).join("");
+  select.addEventListener("change", updateScanButton);
+  document.getElementById("pdfInput").addEventListener("change", updateScanButton);
+  document.getElementById("scanBtn").addEventListener("click", runScan);
+}
+
+init();
+</script>
+</body>
+</html>
